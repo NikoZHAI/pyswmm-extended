@@ -1,13 +1,13 @@
-#Extended PySWMM
+# Extended PySWMM
 
 Extended SWMM5 API for optimization problems
 
-##Original API: 
+## Original API: 
 
 [PySWMM](https://github.com/OpenWaterAnalytics/pyswmm) - Open Water Analytics 
 
 
-##What's new? 
+## What's new? 
 
 Add features to manipulate the link cross-sections. Changing diameters and type of your conduits. 
 
@@ -23,7 +23,7 @@ See in swmm5.py:
 
 		setLinkXsectDiameters() 
 
-##Usage 
+## Usage 
 
 The **lib/linux/swmmapi_extended.so** is compiled from modified C source code [**SEE HERE**](https://github.com/NikoZHAI/Stormwater-Management-Model). 
 
@@ -35,7 +35,7 @@ One should load this executable when you want to use the above-stated features.
 		l = sim._model.getLinkLength(link_index)
 		print(l)
 
-##Related Project
+## Related Project
 
 Multi-objective optimization by progressive improvement of surrogate machine learning models (MOPRISM) 
 
@@ -43,6 +43,6 @@ hosted by UNESCO-IHE
 
 supervised by Prof. Dimitri Solomatine and Dr. Juan Carlos Chacon-Hurtado
 
-##Contact 
+## Contact 
 
 Huanyu ZHAI - huanyu.zhai@outlook.com
